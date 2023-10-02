@@ -53,3 +53,59 @@ img {
 .card .card-body a {
   text-decoration: underline;
 }
+
+.text-primary {
+  color: #326dee;
+}
+
+.text-primary-light-1 {
+  color: #2d62d6;
+}
+
+.text-primary-light-2 {
+  color: #2857be;
+}
+
+.text-primary-light-3 {
+  color: #234ca7;
+}
+
+.text-primary-light-4 {
+  color: #1e418f;
+}
+
+.text-primary-light-5 {
+  color: #193777;
+}
+
+.text-primary-light-6 {
+  color: #142c5f;
+}
+
+.text-secondary {
+  color: #1ac886;
+}
+
+.text-secondary-light-1 {
+  color: #17b479;
+}
+
+.text-secondary-light-2 {
+  color: #15a06b;
+}
+
+.text-secondary-light-3 {
+  color: #128c5e;
+}
+
+.text-secondary-light-4 {
+  color: #107850;
+}
+
+.text-secondary-light-5 {
+  color: #0d6443;
+}
+
+.text-secondary-light-6 {
+  color: #0a5036;
+}
