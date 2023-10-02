@@ -19,8 +19,20 @@
     }
   }
 }
+
+$colors: (
+    'primary': $primary,
+    'secondary': $secondary
+);
+
+// USING MAP
+@debug map-get($colors, 'primary');
+@debug map-has-key($colors, 'thir');
+@debug map-remove($colors, 'primary');
+@debug map-merge($colors, ('pink': #ffc0cb));
+
 // MATH and debug rule
-@debug "hello yuavraj";
-@debug math.div(10px, 2);
-@debug math.floor(2.3);
-@debug math.max(10px, 10pt, 11px);
+// @debug "hello yuavraj";
+// @debug math.div(10px, 2);
+// @debug math.floor(2.3);
+// @debug math.max(10px, 10pt, 11px);
