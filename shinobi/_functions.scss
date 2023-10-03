@@ -3,3 +3,11 @@
   $light-complement: lighten($complement, 30%);
   @return $light-complement;
 }
+
+// THESE are pre built functions
+// Darken, Lighten, Mix, map-get
+// https://sass-lang.com/documentation/at-rules/function/
+@function pixel(){
+  @return 1px;
+}
+
