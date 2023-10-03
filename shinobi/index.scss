@@ -11,3 +11,19 @@
 @import 'components/card';
 
 // utilities (margin, padding, opacity, etc)
+
+
+// MIXINS -- Lesson
+
+@mixin btn(){
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-mixin{
+    @include btn();
+}
